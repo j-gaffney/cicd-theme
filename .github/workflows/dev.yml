@@ -3,7 +3,7 @@ on:
   push:
     branches-ignore:
       - staging
-      - master
+      - main
 jobs:
   deploy:
     name: Run dev tests
