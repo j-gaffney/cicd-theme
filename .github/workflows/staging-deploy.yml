@@ -1,0 +1,20 @@
+name: "staging-deploy"
+on:
+  push:
+    branches:
+      - staging
+jobs:
+  deploy:
+    name: Deploy to staging app
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Run deploy
+        uses: pagely/action-deploy@v1
+        with:
+          PAGELY_DEPLOY_DEST: "/httpdocs/wp-content/themes/twentynineteen"
+          PAGELY_INTEGRATION_SECRET: ${{secrets.PAGELY_CICD_DEV_INTEGRATION_SECRET}}
+          PAGELY_INTEGRATION_ID: "W6sCnon2FzCjb5TYXig7JZ"
+          PAGELY_APP_ID: "35646"
+          PAGELY_WORKING_DIR: ${{github.workspace}}

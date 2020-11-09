@@ -1,0 +1,13 @@
+name: "staging"
+on:
+  push:
+    branches-ignore:
+      - staging
+      - master
+jobs:
+  deploy:
+    name: Run dev tests
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2

@@ -1,6 +1,8 @@
-name: "pagely-deploy"
+name: "prod-deploy"
 on:
   push:
+    branches:
+      - master
 jobs:
   deploy:
     name: Deploy to Pagely
