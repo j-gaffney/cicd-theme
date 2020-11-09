@@ -16,7 +16,7 @@ get_header();
 		<main id="main" class="site-main">
 
 		<p style="margin: 0 calc(10% + 60px);">
-			Dev edit2 for deploy!!!
+			Dev edit3 for deploy!!!
 		</p>
 
 			<?php

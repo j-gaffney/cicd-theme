@@ -4,6 +4,6 @@ class doesItRunTest extends \PHPUnit\Framework\TestCase
 {
     public function testTrue()
     {
-        self::assertTrue(true);
+        self::assertTrue(false);
     }
 }
