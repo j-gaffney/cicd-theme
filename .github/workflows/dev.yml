@@ -1,4 +1,4 @@
-name: "staging"
+name: "dev"
 on:
   push:
     branches-ignore:
@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+      - name: List vendor folder
+        run: |
+          echo "We're not deploying anything"
+          ls -ld ${{github.workspace}}
