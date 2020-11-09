@@ -11,7 +11,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: List vendor folder
+      - name: What is happening
         run: |
-          echo "We're not deploying anything"
+          echo "We're not deploying anything, just testing"
+      - name: List workspace files
+        run: |
           ls -ld ${{github.workspace}}
