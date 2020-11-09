@@ -11,7 +11,19 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: List vendor folder
+      - name: What does this workflow do?
         run: |
-          echo "We're not deploying anything"
+          echo "We're not deploying anything, just testing."
+      - name: List the workspace dir files/fodlers
+        run: |
           ls -ld ${{github.workspace}}
+      - name: Install dependencies
+        uses: php-actions/composer@v1
+      - name: Run PHPUnit Tests
+        uses: php-actions/phpunit@v9
+        with:
+          configuration: test/phpunit.xml
+          args: --coverage-text
+      - name: How did we do?
+        run: |
+          echo "We made it through the tests!"
