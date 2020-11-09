@@ -20,6 +20,10 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
+		<p style="margin: 0 calc(10% + 60px);">
+			Theme edit!!!
+		</p>
+
 		<?php
 		if ( have_posts() ) {
 
