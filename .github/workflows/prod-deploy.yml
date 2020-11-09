@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: Run deploy
+      - name: Run deploy to prod
         uses: pagely/action-deploy@v1
         with:
           PAGELY_DEPLOY_DEST: "/httpdocs/wp-content/themes/twentynineteen"
