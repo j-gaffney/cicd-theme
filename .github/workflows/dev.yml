@@ -1,10 +1,9 @@
 name: "dev"
 on:
-  pull_request_review_comment:
-  # push:
-  #   branches-ignore:
-  #     - staging
-  #     - main
+  push:
+    branches-ignore:
+      - staging
+      - main
 jobs:
   deploy:
     name: Run dev tests
