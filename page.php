@@ -15,10 +15,14 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-		<p style="margin: 0 calc(10% + 60px);">
-			test123456
-			<img src="https://media.giphy.com/media/An95xQZRS1B1S/source.gif" />
-		</p>
+		<div style="margin: 0 calc(10% + 60px); ">
+			<!-- <img src="https://media.giphy.com/media/An95xQZRS1B1S/source.gif" width="400px"  height="auto"  /> -->
+			<div style="border: 1px dashed #767676; padding: 20px; display:flex; align-items: center; justify-content: center; min-height: 200px; max-width: 600px">
+				<h3 style="color: #767676">
+					Coming Soon... <i>a gif!</i>
+				</h6>
+			</div>
+		</div>
 
 			<?php
 
