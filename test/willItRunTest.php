@@ -1,6 +1,6 @@
 <?php
 
-class doesItRunTest extends \PHPUnit\Framework\TestCase
+class willItRunTest extends \PHPUnit\Framework\TestCase
 {
     public function testTrue()
     {
