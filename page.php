@@ -16,12 +16,12 @@ get_header();
 		<main id="main" class="site-main">
 
 		<div style="margin: 0 calc(10% + 60px); ">
-			<!-- <img src="https://media.giphy.com/media/IW71LHYHgD4oU/giphy.gif" width="400px"  height="auto"  /> -->
-			<div style="border: 1px dashed #767676; padding: 20px; display:flex; align-items: center; justify-content: center; min-height: 200px; max-width: 600px">
+			<img src="https://media.giphy.com/media/IW71LHYHgD4oU/giphy.gif" width="400px"  height="auto"  />
+			<!-- <div style="border: 1px dashed #767676; padding: 20px; display:flex; align-items: center; justify-content: center; min-height: 200px; max-width: 600px">
 				<h3 style="color: #767676">
 					Coming Soon... <i>code changes!</i>
 				</h6>
-			</div>
+			</div> -->
 		</div>
 
 			<?php
