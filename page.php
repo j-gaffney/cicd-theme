@@ -16,7 +16,7 @@ get_header();
 		<main id="main" class="site-main">
 
 		<div style="margin: 0 calc(10% + 60px); ">
-			<img src="https://media.giphy.com/media/IW71LHYHgD4oU/giphy.gif" width="600px"  height="auto"  />
+			<img src="https://media.giphy.com/media/IW71LHYHgD4oU/giphy.gif" width="600px"  height="auto" title="abc-def" />
 		</div>
 
 			<?php
